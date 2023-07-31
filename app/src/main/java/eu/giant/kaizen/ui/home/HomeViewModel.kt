@@ -2,12 +2,12 @@ package eu.giant.kaizen.ui.home
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.viewModelScope
-import eu.giant.kaizen.ui.base.BaseViewModel
 import dagger.hilt.android.lifecycle.HiltViewModel
 import eu.giant.kaizen.domain.model.Sport
 import eu.giant.kaizen.domain.model.SportEvent
 import eu.giant.kaizen.domain.usecase.GetSports
 import eu.giant.kaizen.domain.usecase.ToggleFavorite
+import eu.giant.kaizen.ui.base.BaseViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import javax.inject.Inject

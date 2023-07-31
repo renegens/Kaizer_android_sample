@@ -1,7 +1,6 @@
 package eu.giant.kaizen.data.repository
 
 import eu.giant.kaizen.data.local.entities.FavoriteEntity
-import kotlinx.coroutines.flow.Flow
 
 interface FavoriteRepository {
     suspend fun getAll(): List<FavoriteEntity>

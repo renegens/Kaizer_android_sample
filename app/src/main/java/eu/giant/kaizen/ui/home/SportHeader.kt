@@ -12,23 +12,15 @@ import androidx.compose.material.Icon
 import androidx.compose.material.IconButton
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Switch
-import androidx.compose.material.SwitchColors
 import androidx.compose.material.SwitchDefaults
 import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowDropDown
-import androidx.compose.material.icons.outlined.ArrowDropDown
 import androidx.compose.material.icons.outlined.KeyboardArrowDown
 import androidx.compose.material.icons.outlined.KeyboardArrowUp
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.Color.Companion.Blue
-import androidx.compose.ui.graphics.Color.Companion.Red
-import androidx.compose.ui.graphics.Color.Companion.Yellow
-import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.unit.dp
 import eu.giant.kaizen.domain.model.Sport
 import eu.giant.kaizen.ui.theme.Black
@@ -36,7 +28,6 @@ import eu.giant.kaizen.ui.theme.Blue
 import eu.giant.kaizen.ui.theme.Grey
 import eu.giant.kaizen.ui.theme.Red
 import eu.giant.kaizen.ui.theme.White
-import eu.giant.kaizen.ui.theme.Yellow
 import java.util.Locale
 
 @Composable

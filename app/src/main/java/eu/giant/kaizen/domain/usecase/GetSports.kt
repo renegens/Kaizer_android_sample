@@ -4,8 +4,6 @@ import eu.giant.kaizen.data.Resource
 import eu.giant.kaizen.data.repository.FavoriteRepository
 import eu.giant.kaizen.data.repository.SportsRepository
 import eu.giant.kaizen.domain.model.Sport
-import kotlinx.coroutines.flow.collect
-import timber.log.Timber
 import javax.inject.Inject
 
 class GetSports @Inject constructor(
